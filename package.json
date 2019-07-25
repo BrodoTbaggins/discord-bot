@@ -10,6 +10,7 @@
         "eslint": "^5.2.0",
         "ffmpeg-binaries": "^4.0.0",
         "i": "^0.3.6",
-        "node-opus": "^0.3.0"
+        "node-opus": "^0.3.0",
+        "nodemon": "^1.19.1"
     }
 }
