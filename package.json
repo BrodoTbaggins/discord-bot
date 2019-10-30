@@ -5,12 +5,16 @@
     "main": "bot.js",
     "author": "Austin Pack",
     "dependencies": {
+        "bufferutil": "^4.0.1",
         "discord.js": "^11.3.2",
         "discord.js-commando": "^0.10.0",
+        "erlpack": "github:hammerandchisel/erlpack",
         "eslint": "^5.2.0",
+        "ffmpeg": "0.0.4",
         "ffmpeg-binaries": "^4.0.0",
         "i": "^0.3.6",
-        "node-opus": "^0.3.0",
-        "nodemon": "^1.19.1"
+        "node-opus": "^0.3.2",
+        "nodemon": "^1.19.1",
+        "ytdl-core": "^0.29.3"
     }
 }

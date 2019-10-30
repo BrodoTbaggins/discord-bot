@@ -14,8 +14,10 @@ for (const file of commandFiles) {
 
 //When Bot is reconnects or logs in do this
 client.on('ready', () => {
-	console.log('Ready!');
+	console.log('Yo this bot is ready to go!');
 });
+
+client.on('error', console.error);
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
